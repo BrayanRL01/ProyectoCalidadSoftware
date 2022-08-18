@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Test1 {
+    
+    // Caso de prueba 2: Buscar un video en Youtube
 
     @Test
     public void Test1() throws IOException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Driver\\chromedriver.exe");
 
         WebDriver A = new ChromeDriver();
         A.manage().window().maximize();

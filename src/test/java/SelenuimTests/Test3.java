@@ -10,10 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Test3 {
+    
+    // Ir al historial de Youtube y ver el video reproducido almacenado en ese espacio.
 
     @Test
     public void Test3() throws IOException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Driver\\chromedriver.exe");
 
         WebDriver A = new ChromeDriver();
         WebDriverWait B = new WebDriverWait(A, 10);

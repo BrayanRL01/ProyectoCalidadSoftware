@@ -9,10 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Test3 {
+    
+    //Caso de prueba 10: Ingresar al apartado de Historial
 
     @Test
     public void Test3() throws IOException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Calidad Software\\Driver\\chromedriver.exe");
 
         WebDriver A = new ChromeDriver();
         WebDriverWait B = new WebDriverWait(A, 10);
